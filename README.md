@@ -35,7 +35,7 @@ To run the project, you need to download the dataset and place it in the `data/`
 
 ### Download the Data
 1. Go to the official NYC Taxi & Limousine Commission (TLC) Trip Data portal:  
-   [NYC Taxi & Limousine Commission - Trip Data]([https://www.nyc.gov/assets/tlc/downloads/pdf/data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page))
+   [NYC Taxi & Limousine Commission - Trip Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 2. Download the desired **yellow taxi trip data** files in Parquet format (or CSV if preferred).  
 3. Place the downloaded files inside the `data/` folder in the project root:
 
