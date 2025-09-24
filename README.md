@@ -28,6 +28,23 @@ NYC-Taxi-Analysis/
 
 
 ---
+## Data Setup
+
+The NYC Taxi dataset used in this project is **not included** in this repository due to its large size.  
+To run the project, you need to download the dataset and place it in the `data/` folder.
+
+### Download the Data
+1. Go to the official NYC Taxi & Limousine Commission (TLC) Trip Data portal:  
+   [NYC Taxi & Limousine Commission - Trip Data](https://www.nyc.gov/assets/tlc/downloads/pdf/data)
+2. Download the desired **yellow taxi trip data** files in Parquet format (or CSV if preferred).  
+3. Place the downloaded files inside the `data/` folder in the project root:
+
+### Notes
+- The `data/` folder is **ignored by Git** to keep the repository lightweight.  
+- Ensure the files match the names expected in `src/load_data.py` or adjust the script accordingly.  
+- After placing the data, you can run the scripts to load, preprocess, and visualize the data.
+
+---
 
 ## 1️⃣ Data Preprocessing
 - Converted pickup/dropoff timestamps to datetime
