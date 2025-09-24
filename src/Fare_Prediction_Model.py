@@ -39,7 +39,7 @@ plt.figure(figsize=(8,5))
 plt.scatter(y_test, y_pred_xgb, alpha=0.3)
 plt.xlabel("Actual Fare")
 plt.ylabel("Predicted Fare")
-plt.title("Random Forest: Actual vs Predicted Fare")
+plt.title("XGBoost: Actual vs Predicted Fare")
 plt.savefig(os.path.join(result_folder, "actual_vs_predicted_fare.png"))
 plt.show()
 
